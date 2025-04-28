@@ -18,7 +18,7 @@ A Django app for creating dynamic tree-like menus using template tags.
 
 ```bash
 git clone https://github.com/MaskedGod/django_menu.git
-cd your-repo-name
+cd django_menu
 ```
 
 2. Create and activate a virtual environment:
