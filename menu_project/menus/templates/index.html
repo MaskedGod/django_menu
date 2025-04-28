@@ -1,0 +1,44 @@
+{% load draw_menu %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        li.active > a {
+            font-weight: bold;
+            color: green;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Website Navigation Test</h1>
+
+{% draw_menu 'main_menu' %}
+
+<hr>
+
+<p>Welcome to the test page!</p>
+
+</body>
+</html>
